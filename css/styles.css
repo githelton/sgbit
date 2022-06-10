@@ -1,0 +1,696 @@
+﻿#content{
+	width: 100%;
+}
+
+#left{
+	width: 223px;
+	float: left;
+	color:#000000;
+	margin-left: 9px;
+	margin-bottom: 30px;
+}
+
+.munth_box {
+	padding: 3px 15px 0px 39px;
+	background: url(../images/fish_left.gif) 6px 7px no-repeat;
+}
+
+.left_box {
+	border: 1px solid #7EBE81;
+}
+
+.left_box_conteudo {
+	border: 2px solid #7EBE81;
+	margin-top:50px;
+	padding-left:5px;
+}
+
+.text{
+	padding: 0px 20px 15px 9px;
+}
+
+.left_col {
+	float:left;
+	width:339px;
+	height: 350px;
+	margin-right: 10px;
+	border: 1px solid #7EBE81;
+}
+
+.right_col {
+	float: right;
+	width: 339px;
+	height: 350px;
+	border: 1px solid #7EBE81;
+}
+
+
+
+.img_l {	float:left;
+		margin: 3px 15px 3px 0px;
+}
+
+.img_r {	float: right;
+		margin: 3px 6px 3px 10px;
+}
+
+.span_right {	color:#2B572C;
+	font-size:12px;
+	font-weight:bold;
+}
+
+.span_left {	color:#2B572C;
+	font-size:12px;
+	font-weight:bold;
+}
+
+#left H1{
+    font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: 100;
+	color:#2B572C;
+	text-align:left;
+	padding: -5px 0px 10px 10px;
+	margin-top:0px;
+	background: url(../images/title.png) top repeat-x;
+}
+
+#right H1{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:18px;
+	font-weight: 100;
+	color:#2B572C;
+	text-align: left;
+	padding: 10px 0px 20px 10px;
+	background: url(../images/title.png) top repeat-x;
+}
+
+.read_r{
+	text-align:right;
+	padding-right:5px;
+	padding-top: 0px;
+}
+
+.read_r a {
+	font-weight:bold;
+	font-size:12px;
+	color:#2B572C;
+	text-decoration:underline;
+}
+
+.read_r a:hover {
+	font-weight:bold;
+	font-size:12px;
+	color:#2B572C;
+	text-decoration: none;
+}
+
+.read_l{
+	text-align:right;
+	padding-right:5px;
+	padding-bottom: 3px;
+	background: url(../images/b_read.gif) right 0px no-repeat;
+}
+
+.read_l a {
+	font-weight:bold;
+	font-size:12px;
+	color:#117C00;
+	text-decoration: none;
+	padding-right: 2px;
+	
+}
+
+.read_l a:hover {
+	font-size:12px;
+	color: #000000;
+	text-decoration: none;
+}
+
+#right{
+	float: right;
+	width: 640px;
+	margin-right:10px;
+	margin-top:-15px;
+}
+
+#right_bg{
+	background: url(../images/right_bg.gif) left repeat-y;
+	padding: 0px 18px 0px 18px;
+	
+}
+
+.opt {
+	background:url(../images/opt.gif) right bottom no-repeat;
+	height: 30px;}
+
+.opt_a {
+	padding: 10px 0px 0px 27px;
+	background: url(../images/fish1.gif) 4px 15px no-repeat;
+	}
+.opt_a:hover {
+	}
+	
+.opt_a a {
+	color:#400000;
+	text-decoration:none;}
+
+.dat { padding: 10px 5px 0px 27px;
+		background:url(../images/fish1.gif) 4px 15px no-repeat;
+}
+		
+.left_res
+{
+width: 50%;
+float: left;
+}
+
+.left_res a
+{
+color: #4E6E33;
+font-weight: bold;
+}
+
+.right_res
+{
+float: right;
+width: 50%;
+}
+
+.right_res a
+{
+color: #4E6E33;
+font-weight: bold;
+}
+
+ul{
+  color: #000;
+}
+
+#picture_size{
+	height:240px; width:325px; margin-bottom: 4px; margin-left: 4px;
+}
+
+.nav_picture_1 a {
+	color:#003C00; text-decoration:none; font-weight:bold; margin-left: 6px;
+}
+
+.nav_picture_1 a:hover {
+    text-decoration:underline;
+}
+
+.nav_picture_2 a {
+	color:#003C00; text-decoration:none; font-weight:bold; margin-top: -7px; margin-left:155px;
+}
+
+.nav_picture_2 a:hover {
+    text-decoration:underline;
+}
+
+/*****************************************Aba dos cadastros**********************************************/
+
+#menudiv ul{
+   width:500px; 
+   position:absolute; 
+   list-style: none;
+   padding-left: 0px;
+  /* border: 2px solid #4F6228;*/
+}
+
+#menudiv ul li{
+   width:243px; /* 160px */  
+   float: left;
+}
+
+#menudiv ul li a{
+   width:243px; 
+   height:31px;
+   display:block;
+   color:#000; 
+   font:18px/28px Arial, Helvetica, sans-serif; 
+   font-weight:bold; 
+   text-align:center; 
+   text-decoration:none;
+   padding-top:7px;
+   background: url("../images/aba1.png") no-repeat;
+}
+
+.inativo{
+  color:#003399;
+  /* border-right:1px solid white; 
+   border-left:1px solid white;
+   border-top:1px solid white;*/
+}
+
+#menudiv ul li a:hover{
+   width:243px; 
+   height:31px; 
+   display:block; 
+   color:#B30000; 
+   font-weight:bold; 
+   text-align:center; 
+   text-decoration:none;
+}
+
+#menudiv ul li a.home{
+   width:243px; 
+   height:31px; 
+   display:block; 
+   background: url("../images/aba.png") no-repeat;
+   color: #B30000; 
+   font:18px/28px Arial, Helvetica, sans-serif; 
+   font-weight:bold; 
+   text-align:center; 
+   text-decoration:none;
+}
+
+/******************************************************************************************/
+
+#localizacao_site{
+	margin-top:-10px;
+	margin-bottom: 10px;
+	color: #2B572C;
+	margin-left:9px;
+	font-size:14px;
+}
+
+#boas_vindas{
+	padding-top:10px;
+	margin-bottom: 10px;
+	color: #2B572C;
+	margin-left:9px;
+	font-size:14px;
+	text-align:right;
+}
+
+.aut_verify{
+    color:#BFDFC0; text-decoration:none; margin-left:10px; margin-right:10px;
+}
+
+.aut_verify:hover{
+    text-decoration:underline;	
+}
+
+.conteudo_aba{
+   margin-left: 16px;
+   height: auto;
+}
+
+.mostra_campos{
+	color: navy;
+	margin-top: 5px;
+}
+
+.alinhamento{
+	margin-bottom:10px;
+}
+
+.alinhamento2{
+	margin-bottom:10px; 
+	margin-right:24px; 
+	margin-left:10px;
+}
+
+.alinhamento3{
+	margin-top:10px;
+	margin-bottom:10px; 
+}
+
+.alinhamento4{
+	margin-top:0px;
+	margin-bottom:0px; 
+}
+
+.addcomp{
+    color: navy;
+	text-align:right;
+	margin-bottom: 5px;
+	margin-top:5px;
+}
+
+.addcomp a{
+	margin-right:20px;
+}
+
+.invisible{
+	display:none;
+}
+
+/*************************Formatação da Tabela*********************************************/
+
+.ms-simple1-main {
+	border-left-style: none;
+	border-right-style: none;
+	border-top: 1.5pt solid #2B572C;
+	border-bottom: 1.5pt solid #2B572C;
+	background-color: #2B572C;
+	color: white;
+	font-size: 16px;
+}
+
+.ms-simple1-tl {
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	border-bottom: .75pt solid #2B572C;
+}
+
+.ms-simple1-left {
+	border-style: none;
+}
+
+.ms-simple1-sel{
+	background:#FFFFFF;
+}
+
+.ms-simple1-sel-title{
+	background: #2B572C; /* #990000*/
+	color:white;
+}
+
+.ms-simple1-top {
+	border-left-style: none;
+	border-right-style: none;
+	border-top-style: none;
+	border-bottom: .75pt solid #2B572C;
+}
+
+.ms-simple1-even {
+	border-style: none;
+}
+
+/******************************Menu Esquedo Admin************************************/
+
+.nav_esq {
+	color:#000;
+	width:219px;
+	font-family:Arial, Helvetica, sans-serif;
+	list-style: none;	
+	font-size:16px;
+	margin-left:-40px;
+	margin-top:-7px;
+}
+
+.title_menu_esq{
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:16px;
+    padding-left: 0px;
+    color:white;
+}
+
+.text_title_background{
+   width:110px;
+   text-align:center;
+}
+	
+h4 {
+	font-size: 11px;
+	height: 18px;
+	color: #003647;
+	padding: 3px 0 0 10px;
+}
+	
+.nav_esq ul {
+	list-style: none;
+	color:#000;
+}
+	
+.nav_esq a {
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	color:#000;
+	text-decoration: none;
+	margin: 0 0px auto 0px;
+	padding-left: 5px;
+	border: 0px;
+	height: 12px;
+	padding-top: 3px;
+	padding-bottom: 10px;
+}
+
+.nav_esq ul a {
+	display: block;
+	font-size: 13px;
+	font-weight: bold;
+	font-family:"Arial";
+	color:#000;
+	text-decoration: none;
+	margin: 0 0px auto 0px;
+	padding-left: 5px;
+	border-bottom: 1px solid #BFDFC0;
+	height: 12px;
+	padding-top: 3px;
+	padding-bottom: 10px;
+}
+
+.nav_esq a:hover {
+	background: #67b021 url(../JavaScript/jquery-ui-1.8.9.custom/css/custom-theme/images/ui-bg_highlight-soft_25_67b021_1x100.png) 50% 50% repeat-x; 
+	font-weight: bold; 
+	color: #ffffff;
+}
+	
+#ad a {
+	color:#000;
+	margin: 5px auto;
+	padding: 0;
+	border-bottom: 0;
+	height: 400px;
+}
+
+#rightside {
+	float: right;
+	width: 700px;
+	background-color:#eee;
+	color:#000;
+}
+
+.nav_esq_1{
+    margin-left:-40px;
+	color:#000;
+}
+
+.nav_esq_1 ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	width: 160px;
+	text-align:left;
+}
+
+.nav_esq_1 ul li {
+	position: relative;
+}
+
+.nav_esq_1 ul li a {
+	display: block;
+	text-decoration: none;
+	color: black;
+	padding: 5px;
+	border: 1px solid #ccc;
+	text-align:left;
+	width: 225px;
+}
+
+.nav_esq_1 ul li a:hover {
+   background: #2B572C;
+   color:#FFF;
+}
+
+.nav_ident{
+	text-indent:20px;
+	color:#000;
+}
+
+#nav_ident_selected a{
+	text-indent:20px;
+	color:#B30000;
+	font-weight: bold;
+}
+
+#nav_selected a{
+	color:#B30000;
+	font-weight: bold;
+}
+
+
+#nav_ident_selected a:hover{
+    background: #67b021 url(../JavaScript/jquery-ui-1.8.9.custom/css/custom-theme/images/ui-bg_highlight-soft_25_67b021_1x100.png) 50% 50% repeat-x;  
+	color: #ffffff;
+}
+
+#nav_selected a:hover{
+    background: #67b021 url(../JavaScript/jquery-ui-1.8.9.custom/css/custom-theme/images/ui-bg_highlight-soft_25_67b021_1x100.png) 50% 50% repeat-x;  
+	color: #ffffff;
+}
+
+
+.abre_cont{
+    margin-right: 5px;
+	color:#000;
+}
+
+/******************************************************************************************/
+
+.ui-button { margin-left:-1px;color:#000; }
+.ui-button-icon-only .ui-button-text { padding: 0; color:#000; } 
+.ui-autocomplete-input { margin: 0; border: 1px solid #2B572C; width:200px; color:#000; }
+
+.pais_colaborador{width:220px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.uf_colaborador{width:220px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.municipio_colaborador{width:200px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.projeto_colaborador{width:194px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.funcao_colaborador{width:194px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.nivel_colaborador{width:270px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.instituicao_colaborador{width:350px; height:19px; border-color: #2B572C; border-style:solid;color:#000;}  
+.instituicao_ac_colaborador{width:333px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.perfil_ac_colaborador{width:200px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+
+.sitio_grade_modulo{width:139px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.datum_grade_modulo{width:118px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+
+.sitio_infraestrutura{width:300px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.grade_modulo_trilha{width:157px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.datum_infraestrutura{width:118px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.tipo_infraestrutura_infraestrutura{width:200px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+
+.autarquia_inst{width:172px; height:19px; border-color:#2B572C; border-style:solid; color:#000;}
+.tipo_inst{width:222px; height:19px; border-color:#2B572C; border-style:solid; color:#000;}
+.pais_inst{width:220px; height:19px; border-color:#2B572C; border-style:solid; color:#000;}
+.uf_inst{width:220px; height:19px; border-color:#2B572C; border-style:solid; color:#000;}
+.municipio_inst{width:200px; height:19px; border-color:#2B572C; border-style:solid; color:#000;}
+.org_fin_inst{width:130px; height:19px; border-color:#2B572C; border-style:solid; color:#000;}
+
+.resp_prin_nucleo{width:320px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.resp_sup_nucleo{width:320px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.gestor_nucleo{width:320px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.pais_nucleo{width:220px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.uf_nucleo{width:220px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.municipio_nucleo{width:200px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+
+.sitio_parcela{width:181px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.grade_modulo_parcela{width:181px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.trilha_parcela{width:195px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.datum_parcela{width:118px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.funcao_col_projeto{width:130px; height:19px; border-color:#2B572C; border-style:solid; color:#000; border:}
+
+.pais_setor{width:220px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.uf_setor{width:220px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.municipio_setor{width:200px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.instituicao_setor{width:195px; height:19px; border-color: #2B572C; border-style:solid; text-align:left; color:#000;}
+
+.nucleo_sitio{width:240px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.categoria_sitio{width:300px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.datum_sitio{width:118px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+
+.sitio_trilha{width:181px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.grade_mod_trilha{width:181px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.datum_ini_trilha{width:118px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.datum_fim_trilha{width:118px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+
+.sitio_segmento{width:181px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.grade_modulo_segmento{width:181px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.trilha_segmento{width:185px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.pos_parc_segmento{width:53px; height:19px; border-color: #2B572C; border-style:solid; text-align:center; color:#000;}
+.datum_segmento{width:118px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.nome_parcela_segmento{width:210px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+
+.equipe_cobranca_resp{width: 300px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.equipe_cobranca_li{width: 300px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+
+.trilha_ass_sitio{width:181px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.trilha_ass_grade_modulo{width:170px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.trilha_ass_trilha{width:181px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+
+.parcela_ass_sitio{width:181px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.parcela_ass_grade_modulo{width:170px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.parcela_ass_trilha{width:181px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.parcela_ass_parcela{width:181px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+
+.segmento_ass_sitio{width:181px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.segmento_ass_grade_modulo{width:170px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.segmento_ass_trilha{width:181px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.segmento_ass_parcela{width:181px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.segmento_ass_segmento{width:181px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+
+.infra_ass_sitio{width:181px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.infra_ass_grade_modulo{width:170px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.infra_ass_infra{width:181px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+
+.situacao_pub{width:340px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+
+.datum_mapa{width:118px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+
+.mes_ref_bio{width:80px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.sel_tipo_evento{width:80px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.sel_natureza_apres_trab{width:200px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.sel_natureza_livro_publicado{width:100px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.sel_nat_anais{width:135px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.sel_nat_apres_trab{width:135px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.sel_inst_trab_acad{width:135px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.sel_nivel_trab_acad{width:135px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+
+.sel_natureza_trab_tec{width:200px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.sel_natureza_prog_radio_tv{width:200px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+.sel_divulg_inf_gerais{width:200px; height:19px; border-color: #2B572C; border-style:solid; color:#000;}
+
+h1, h2 {
+	font-family: Arial;
+}
+
+h2{
+	font-size: 16px;	
+	color: #333333;
+	padding-bottom: 5px;
+}
+
+h2 > a{
+	text-decoration: none;
+	color: #DB5C04;
+	font-weight: bold;
+}
+
+h2 > a:hover{
+	text-decoration: underline;
+	font-weight: bold;
+}
+
+li{
+	list-style: none;	
+}
+
+.page_navigation , .alt_page_navigation{
+	padding-bottom: 10px;
+}
+
+.page_navigation a, .alt_page_navigation a{
+	padding:3px 5px;
+	margin:2px;
+	color:white;
+	text-decoration:none;
+	float: left;
+	font-family: Tahoma;
+	font-size: 12px;
+	background-color:#2B572C;
+	border: 1px solid #2B572C;
+}
+.active_page{
+	background-color:white !important;
+	color:black !important;
+	border: 1px solid #2B572C;
+}	
+
+.content, .alt_content{
+	color: black;
+	background-color:#E0E5CD;
+	border:1px solid #2B572C;
+}
+
+.content li, .alt_content li, .content > p{
+	padding: 5px;
+	margin-left: -30px;
+}
+
+.nodot{
+	list-style:none;
+}
